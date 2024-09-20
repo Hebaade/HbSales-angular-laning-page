@@ -6,6 +6,7 @@ header{
     padding: 10px 13px;
     background-color: #ffa500;
     color:white;
+    position:relative;
 }
 nav{
     width: 30%;
@@ -24,12 +25,30 @@ header ul a{
 header .fa-bars{
     font-size: 18px;
     display: none;
+    cursor:pointer
 }
 @media screen and (max-width: 992px) {
     header .fa-bars{
         display: block;
     }
     nav{
+     position: absolute;
+     top:100%;
+     background-color: rgba(0, 0, 0, 0.358);
+     width: 90%;
+     padding: 10px;
+     left: 50%;
+     transform: translateX(-50%);
+     z-index: 3;
+    }
+    ul{
+     justify-content: flex-start;
+        flex-direction:column
+    }
+    header ul li{
+        margin:15px 0
+    }
+    .display{
         display: none;
     }
 }

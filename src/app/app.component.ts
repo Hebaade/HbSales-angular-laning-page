@@ -11,8 +11,8 @@ import { HomeComponent } from './home/home.component';
 })
 export class AppComponent {
   title = 'hbsale';
-  isClicked:boolean=false
+  isClicked:boolean = false;
   toggleMenu(){
-this.isClicked=!this.isClicked
+   this.isClicked=!this.isClicked;
   }
 }
