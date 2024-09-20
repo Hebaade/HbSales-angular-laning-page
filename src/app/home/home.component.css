@@ -1,0 +1,112 @@
+.landing{
+    background-color: #ffa500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 30px;
+}
+.landing .img-cont{
+    width: 60%;
+}
+
+.landing .img-cont img{
+    width: 100%;
+}
+.landing .info{
+    width: 40%;
+    padding: 15px;
+    text-align: center;
+}
+.landing .info h2 {
+font-size: 4rem;
+margin: 20px 0;
+}
+.landing .info p{
+    padding: 10px;
+    font-size: 15px;
+}
+.landing .info div{
+    margin: 10px 15px;
+}
+.landing .info button{
+
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.landing .info button:nth-child(1){
+    border-color: #0c0c31;
+    background-color: #0c0c31;
+}
+@media screen and (max-width:992px) {
+    .landing{
+        flex-wrap: wrap;
+    }
+    .landing .img-cont,.landing .info{
+        width: 100%;
+    }
+}
+.service {
+    display: flex;
+    align-items: flex-start;
+    margin: 80px auto ;
+    margin-bottom:0 ;
+    width: 90%;
+}
+.service div{
+    width: 50%;
+}
+.service .info{
+padding: 30px;
+}
+.service .info h2{
+    font-size: 2.5rem;
+    margin: 10px 20px;
+}
+.service .info p{
+    opacity: 0.5;
+    margin: 20px;
+}
+.service img{
+    width: 100%;
+}
+@media screen and (max-width:992px) {
+    .service{
+        flex-wrap: wrap;
+    }
+    .service div{
+        width: 95%;
+    }
+    .service2 .img-cont{
+        order: 2;
+    }
+}
+.contact-link{
+    width: 90%;
+    text-align: center;
+    margin: 100px auto;
+}
+.contact-link h3{
+    font-size: 2rem;
+    margin: 15px;
+}
+.contact-link p{
+    opacity: 0.6;
+    width: 70%;
+    margin: 15px auto;
+}
+.contact-link button{
+    margin: 20px;
+    border: 0;
+    background-color: #0c0c31;
+    padding: 12px 20px;
+    font-size: 18px;
+}
+button a{
+    color: white;
+    text-decoration:none;
+}

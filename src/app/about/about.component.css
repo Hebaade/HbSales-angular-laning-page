@@ -1,0 +1,40 @@
+.about{
+    width: 80%;
+    margin: 50px auto;
+}
+.about{
+    font-size: 2rem;
+    text-align: center;
+}
+.about >div{
+    margin: 30px;
+    justify-content: space-between;
+    display: flex;
+}
+.about .item{
+    width: 30%;
+    border: 1px solid gray;
+    padding: 30px;
+    text-align: center;
+}
+.item i{
+    font-size: 3rem;
+    margin: 15px auto;
+    color: navy;
+}
+.item p{
+    opacity: 0.6;
+    font-size: 18px;
+    margin: 15px auto;
+}
+@media screen and (max-width: 768px)
+{
+    
+    .about > div{
+        flex-direction: column;
+    }
+    .about .item{
+        width:100%;
+        margin: 15px auto;
+    }
+}    
